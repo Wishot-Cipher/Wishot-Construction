@@ -12,13 +12,11 @@ body{
   background-color: #fbfafa;
 }
 .header{
-  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-  height: 80px;
+  height: 70px;
   overflow: hidden;
   position: sticky;
   background-color: #F7F7F7;
   top: 0px;
-  /* background-color: rgb(255, 254, 254,0.3); */
   z-index: 30;
  }
  .slider{
@@ -53,12 +51,20 @@ body{
  .logoLx{
    padding-left: 20px;
    color: var(--white);
+   display: flex;
  }
  .slider ul .menu{
    display: none;
  }
  .logo{
    display: none;
+ }
+ .logo h2, .logoLx h2{
+  text-align: center;
+  display: inline;
+  padding-top: 5px;
+  font-weight: 800;
+  color: black;
  }
  .showmenu,  .personIcon{
    font-size: 20px;
@@ -97,6 +103,7 @@ body{
   align-items:center;
   padding-top: 21%;
   height: 100%;
+  /* overflow: hidden; */
  }
  .heroText h1{
   font-weight: 700;
@@ -125,7 +132,8 @@ body{
 }
 .card{
   flex-basis: 34%;
-  padding-inline: 40px;
+  padding-left: 40px;
+  padding-right: 20px;
   padding-block: 18px;
   border: none;
   box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
@@ -233,6 +241,7 @@ body{
   }
   .servicesHeaderCont{
     text-align: center;
+    margin-bottom: 30px;
   }
   .servicesHeaderCont h1{
     font-weight: 700;
@@ -578,13 +587,19 @@ body{
     /* CONTACT FORM COMPONENTS STYLES --STARTS */
   .contactCont{
     display: flex;
-    gap: 5px;
+    gap: 10px;
   }
   .ourFaq{
     flex-basis: 49%;
   }
   .contactForm{
     flex-basis: 49%;
+  }
+  .contactForm div:nth-child(1){
+    background-color: #F5F5F5;
+    padding-inline: 25px;
+    padding-block: 30px;
+    border-radius: 10px;
   }
   .contactForm h6,.ourFaq h6 {
     color: var(--MostUsedcolor);
@@ -604,9 +619,12 @@ body{
     padding-bottom: 5px;
   }
   .questionsCont{
-    border: 1px solid orangered;
+    border: 2px solid orangered;
     /* height: 30%; */
-    padding: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
   }
   .questions{
     display: flex;
@@ -621,6 +639,44 @@ body{
   .clikedAnswer{
     display: block;
   }
+  .detailContactform  input, textarea{
+    height: 50px;
+    width: 100%;
+    border: 2px solid rgb(184, 182, 182);
+    padding-inline: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  textarea{
+    height:18% ;
+  }
+  .detailContactform h2{
+    margin-block: 20px;
+  }
+  input[type=submit]{
+    background-color: var(--MostUsedcolor);
+    width: 60%;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    /* margin: 0px auto; */
+    font-weight: 550;
+    color: white;
+    border: none;
+  }
+  
+  /* TESTIMONIAL COMPONENTS SECTION */
+  .testionieHeader{
+    text-align: center;
+    margin-top: 50px;
+  }
+  .testimonialslider{
+    height: 40vh;
+    border: 2px ridge var(--MostUsedcolor);
+  }
+  .TestiSlider{
+    overflow: hidden;
+  }
 
 
 
@@ -628,13 +684,14 @@ body{
 
 
  /* RESPONSIVENESSS */
- @media (width <= 990px){
+ @media screen and (max-width : 1000px){
   .header{
     height: 70px;
     padding-inline: 10px;
     padding-top: 10px;
+    overflow: hidden;
     position: sticky;
-    top: 0px;
+    /* top: -5px; */
     background-color: #F7F7F7;
     z-index: 20;
   }
@@ -691,6 +748,7 @@ body{
   }
   .largeSc{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     /* margin: 0px 20px; */
     align-items: center;
@@ -708,7 +766,10 @@ body{
   .logo{
     text-align: center;
     color: var(--white);
-    display: block;
+    display: flex;
+  }
+  .logo h2{
+    padding-top: 7px;
   }
   .logoLx{
     display: none;
@@ -763,7 +824,10 @@ body{
       display: block;
     }
  }
- @media (width <= 775px){
+ @media screen and (max-width : 780px){
+  .logo h2{
+    padding-top: 8px;
+  }
   .serviceText{
     bottom: -37%;
   }
@@ -831,7 +895,13 @@ body{
     height: 50%;
   }
  }
- @media (width <= 500px){
+ @media screen and (max-width : 500px){
+  /* .header{
+    overflow: hidden;
+  } */
+  .logo h2{
+    padding-top: 11px;
+  }
   .serviceText{
     bottom: -47%;
   }

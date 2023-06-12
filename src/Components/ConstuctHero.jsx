@@ -7,7 +7,7 @@ export const ConstuctHero = () => {
   const settings = {
     dots : true,
     isFinite: true,
-    speed : 600,
+    speed : 1000,
     slidesToShow: 1,
     slidesToScroll : 1,
     autoplay : true
@@ -20,32 +20,24 @@ export const ConstuctHero = () => {
           <div className="hero">
                 {/* <img src={heroImg} alt="" /> */}
               <div className="heroText">
-                <h3>Recruit The Best Employees</h3>
-                <h1> Provides Effective Building <br /> Best Solution!</h1> <br />
+                <h3>Assemble A High-performing Team Of Experts.</h3>
+                <h1>Transforming Vision Into <br /> Architectural Wonders!</h1> <br />
                 <button>Get Started</button>
               </div>
           </div>
           <div className="hero">
           {/* <img src={heroImg} alt="" /> */}
               <div className="heroText">
-                <h3>Recruit The Best Employees</h3>
-                <h1> Provides Effective Building <br /> Best Solution!</h1> <br />
+              <h3>Assemble A High-performing Team Of Experts.</h3>
+                <h1> Crafting Extraordinary Structures <br /> With Passion!</h1> <br />
                 <button>Get Started</button>
               </div>
           </div>
           <div className="hero">
           {/* <img src={heroImg} alt="" /> */}
               <div className="heroText">
-                <h3>Recruit The Best Employees</h3>
-                <h1> Provides Effective Building <br /> Best Solution!</h1> <br />
-                <button>Get Started</button>
-              </div>
-          </div>
-          <div className="hero">
-          {/* <img src={heroImg} alt="" /> */}
-              <div className="heroText">
-                <h3>Recruit The Best Employees</h3>
-                <h1> Provides Effective Building <br /> Best Solution!</h1> <br />
+              <h3>Assemble A High-performing Team Of Experts.</h3>
+                <h1> Elevating Construction Standards, <br />Exceeding Expectations !</h1> <br />
                 <button>Get Started</button>
               </div>
           </div>

@@ -15,8 +15,9 @@ export const WhyChooseUs = () => {
             <div className="chooseUsCont">
                 <div className="chooseUsReason">
                     <h6>WHY CHOOSE US</h6>
-                    <h1>We Serve A Wide Variety Of Indusries</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem tempora odit blanditiis nisi velit culpa ut accusantium perspiciatis esse laboriosam fuga dicta voluptatem ad repellendus nihil provident neque optio doloribus et, veniam hic dignissimos. Quo dolore provident inventore molestias iusto.</p>
+                    <h1> We Serve A Wide Variety Of Indusries</h1>
+                    <p>  <b>Quality Workmanship:</b> We are committed to delivering superior craftsmanship in every aspect of our construction projects. From precise engineering to meticulous attention to detail, we take pride in our work and strive for excellence.</p>
+                    <p><b>Expertise:</b> With years of experience in the construction industry, we bring extensive knowledge and expertise to every project. Our team of professionals is skilled in building roads, buildings, and bridges, ensuring top-quality results.</p>
                 </div>
                 <div className="companyMisson">
                     <h6>COMPANY MISSON</h6>
@@ -25,7 +26,7 @@ export const WhyChooseUs = () => {
                             <h5> INDULGE YOUR CURIOSITY</h5>
                            <h4> An Award-Winning Big Company </h4>
                             <p>
-                                we belive Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque velit, non rerum deleniti voluptatum fugiat obcaecati consequatur corrupti blanditiis laborum dignissimos rem minima, sequi iste doloribus error cupiditate omnis. Repudiandae!
+                            To be a leading business group creating advanced and sustainable living environments in Nigeria and around the world, for us and for generations to come.
                             </p>
                         </div>
                         <div className="missonImg">

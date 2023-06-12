@@ -6,6 +6,7 @@ import { Services } from '../Components/Services'
 import { Members } from '../Components/Members'
 import { WhyChooseUs } from '../Components/WhyChooseUs'
 import { Contact } from '../Components/Contact'
+import { Testimonies } from '../Components/Testimonies'
 
 export const Construct = () => {
   return (
@@ -17,6 +18,7 @@ export const Construct = () => {
       <Members />
       <WhyChooseUs />
       <Contact />
+      <Testimonies />
     </div>
   )
 }
