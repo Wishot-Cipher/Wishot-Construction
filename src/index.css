@@ -128,6 +128,14 @@ body{
   background-size: cover;
   background-image: url(../src//assets//Construct_Images/p3.jpg);
 } 
+.hero2{
+  background-image: url(../src//assets//Construct_Images/constImg04.jpg);
+  background-position: center right;
+}
+.hero3{
+  background-image: url(../src//assets//Construct_Images/constImg03.jpg);
+  background-position: center left;
+}
  .heroText {
   color: var(--white);
   display: flex;
@@ -216,11 +224,12 @@ body{
     display: flex;
     gap: 20px;
   }
-  .aboutImage{
+  .aboutImg{
     flex-basis: 49%;
   }
   .aboutImg img{
     object-fit: contain;
+    /* height: 100%; */
     width: 100%;
   }
   .aboutText{
@@ -304,6 +313,7 @@ body{
   .serviceCard img{
     object-fit: cover;
     width: 100%;
+    height: 40vh;
   }
   .subService{
     position: relative;
@@ -524,6 +534,7 @@ body{
     width: 100%;
     height: 45vh;
     object-fit: cover;
+    border-radius: 10px;
   }
   .missonText h4{
     font-weight: 700;

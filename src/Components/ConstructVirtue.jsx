@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import aboutImg from "../assets/Construct_Images/about-img.jpg"
+import aboutImg from "../assets/Construct_Images/emmanuel (2).jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBuildingColumns, faPersonDigging, faPersonShelter, faShip, faTools, faTruckMonster } from '@fortawesome/free-solid-svg-icons'
 

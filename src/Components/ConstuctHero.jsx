@@ -25,7 +25,7 @@ export const ConstuctHero = () => {
                 <button>Get Started</button>
               </div>
           </div>
-          <div className="hero">
+          <div className="hero hero2">
           {/* <img src={heroImg} alt="" /> */}
               <div className="heroText">
               <h3>Assemble A High-performing Team Of Experts.</h3>
@@ -33,7 +33,7 @@ export const ConstuctHero = () => {
                 <button>Get Started</button>
               </div>
           </div>
-          <div className="hero">
+          <div className="hero hero3">
           {/* <img src={heroImg} alt="" /> */}
               <div className="heroText">
               <h3>Assemble A High-performing Team Of Experts.</h3>

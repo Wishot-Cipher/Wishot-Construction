@@ -1,10 +1,10 @@
 import React from 'react'
-import chooseImg from '../assets/Construct_Images/tab-img.png'
+import chooseImg from '../assets/Construct_Images/constAward.webp'
 import displayImage1 from "../assets/Construct_Images/p1.jpg"
 import displayImage2 from "../assets/Construct_Images/p2.jpg"
 import displayImage3 from "../assets/Construct_Images/p3.jpg"
 import displayImage4 from "../assets/Construct_Images/p4.jpg"
-import displayImage5 from "../assets/Construct_Images/p5.jpg"
+import displayImage5 from "../assets/Construct_Images/constImgRoad1.jpg"
 import displayImage6 from "../assets/Construct_Images/p6.jpg"
 import { Container } from 'react-bootstrap'
 
