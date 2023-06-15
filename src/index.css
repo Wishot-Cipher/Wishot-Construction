@@ -1,5 +1,5 @@
 :root{
-  --MostUsedcolor: #FE5D26;
+  --MostUsedcolor: #2C4E58;
   --white: #fff;
   --black: #000
 }
@@ -10,11 +10,13 @@
 }
 body{
   background-color: #fbfafa;
+  /* font-family:  Roboto,  sans-serif; */
 }
 .header{
   height: 70px;
   overflow: hidden;
   position: sticky;
+  width: 100%;
   background-color: #F7F7F7;
   top: 0px;
   z-index: 30;
@@ -73,6 +75,38 @@ body{
    color:rgb(86, 87, 85);
    display: none;
  }
+ .upperContactInfo{
+  display: flex;
+  background-color: var(--MostUsedcolor);
+  color: var(--white);
+  padding-inline: 20px;
+  font-weight: 500;
+ }
+ .location p a{
+  color: var(--white);
+  text-decoration: none;
+  padding-inline: 5px;
+ }
+ .location p{
+  padding-right:10px ;
+ }
+ .location{
+  flex-basis: 60%;
+ }
+ .location p{
+  display: inline;
+ }
+ .SocialMediaLinks{
+  flex-basis: 40%;
+  text-align: right;
+  margin-top: 10px;
+ }
+ .SocialMediaLinks a{
+  color: var(--white);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+ }
 .activate{
   color: #F7F7F7;
   border-bottom: 4px solid var(--MostUsedcolor);
@@ -101,7 +135,7 @@ body{
   text-align: center;
   justify-content: center;
   align-items:center;
-  padding-top: 21%;
+  /* padding-top: 21%; */
   height: 100%;
   /* overflow: hidden; */
  }
@@ -140,6 +174,7 @@ body{
  }
  .card h1{
   text-align: right;
+  height: 20px;
   font-size: 50px;
   font-weight: 700;
   color: rgb(0, 0, 0,0.1);
@@ -150,8 +185,8 @@ body{
   font-size: 70px;
  }
  .round{
-   height: 110px;
-   width: 110px;
+   height: 85px;
+   width: 85px;
    border-radius: 50%;
    background-color: var(--MostUsedcolor);
    color: var(--white);
@@ -238,6 +273,9 @@ body{
     height: 50px;
     width: 110px;
     border-radius: 5px;
+  }
+  .servicesBackground{
+  background-color: #fbfafa;
   }
   .servicesHeaderCont{
     text-align: center;
@@ -619,7 +657,7 @@ body{
     padding-bottom: 5px;
   }
   .questionsCont{
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     /* height: 30%; */
     padding: 15px;
     margin-bottom: 10px;
@@ -642,8 +680,9 @@ body{
   .detailContactform  input, textarea{
     height: 50px;
     width: 100%;
-    border: 2px solid rgb(184, 182, 182);
+    border: 1.8px solid #DDDDDD;
     padding-inline: 10px;
+    outline: none;
     border-radius: 10px;
     margin-bottom: 15px;
   }
@@ -666,17 +705,152 @@ body{
   }
   
   /* TESTIMONIAL COMPONENTS SECTION */
-  .testionieHeader{
+  .testimonialContainer{
+  background-color: #F5F5F5;
+  margin-block: 30px;
+  padding-block: 2px;
+  padding-bottom: 80px;
+  }
+  .slick-slide div{
+    margin-inline: 10px;
+    /* padding-inline: 1rem; */
+  }
+  .testimonialHeader{
     text-align: center;
     margin-top: 50px;
   }
+  .testimonialHeader h6{
+    color: var(--MostUsedcolor);
+    font-weight: 700;
+     border-bottom: 3px solid var(--MostUsedcolor);
+     display: inline-block;
+     padding-bottom: 5px;
+     margin-top: 30px;
+  }
+  .testimonialHeader h2{
+    font-weight: 700;
+  }
   .testimonialslider{
     height: 40vh;
-    border: 2px ridge var(--MostUsedcolor);
+    width: 100%;
+    /* border-left: 10px solid #e0e0e0; */
+    background-color: var(--white);
   }
   .TestiSlider{
     overflow: hidden;
   }
+  .testimonialslider p:nth-child(1){
+   display: flex;
+   align-items: center;
+   height: 70%;
+   margin-bottom:-20px ;
+   padding-inline: 40px;
+  }
+  .testiProfileCont{
+    display: flex;
+    gap: 20px;
+  }
+  .roundImageSec {
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+  }
+  .textSec{
+    margin-top: 3px;
+  }
+  .textSec h4{
+    font-weight: 700;
+  }
+  .textSec p{
+    font-weight: 700;
+    color: var(--MostUsedcolor);
+  }
+  .roundImageSec h4{
+    margin-top: 20px;
+  }
+  .testimonialslider div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+    margin-left: 20px;
+  }
+
+  /* FOOTER COMPONENT */
+
+ .footerBackgroung{
+  background-color: var(--black);
+  color: var(--white);
+  padding-top: 40px;
+ }
+ .footerCont{
+  display: flex;
+  gap: 25px;
+ }
+ .footerleftSec h2{
+  color: var(--white);
+ }
+ .footerleftSec p{
+  margin-top: 10px;
+  font-weight: 700;
+ }
+ .footerleftSec{
+  flex-basis: 34%;
+ }
+ .footerCenterSec{
+  flex-basis: 34%;
+}
+.footerCenterSec h3, .footerRightSec h3{
+  font-weight: 800;
+  border-bottom: 5px solid var(--MostUsedcolor);
+  display: inline;
+  margin-bottom: 20px;
+}
+.footerCenterSec p{
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+  color: var(--white);
+  cursor: pointer;
+}
+.footerCenterSec p:hover{
+  color: var(--MostUsedcolor);
+  margin-left: 10px;
+}
+ .footerRightSec{
+  flex-basis: 34%;
+ }
+ .footerRightSec p{
+  color: var(--white);
+  font-weight: 700;
+  transition: all 0.5s ease-in-out;
+ }
+ .footerRightSec p:hover{
+  color: var(--MostUsedcolor);
+  margin-left: 20px;
+ }
+ .footerRightSec a{
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+ }
+ .footerRightSec i{
+    font-size: 25px;
+    padding-inline: 15px;
+ }
+ .footerRightSec a:hover{
+  color: var(--MostUsedcolor);
+ }
+ .footerBackgroung hr{
+  font-size: 20px;
+  border: 2px solid var(--white);
+  font-weight: 700;
+  color: var(--MostUsedcolor);
+ }
+ .copyrite h6{
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: 700;
+ }
 
 
 
@@ -691,17 +865,20 @@ body{
     padding-top: 10px;
     overflow: hidden;
     position: sticky;
-    /* top: -5px; */
+    width: 100%;
     background-color: #F7F7F7;
     z-index: 20;
   }
+  .upperContactInfo{
+    display: none;
+  }
   .slider{
     min-width: 80%;
-    height: 90vh;
+    height: 100vh;
     align-items: start;
     position: fixed;
     right: -100%;
-    margin-top: -85px;
+    top: -18px;
     transition: 0.5s ease;
     z-index: 100;
     border-radius: 5px;
@@ -711,8 +888,7 @@ body{
     right: 0;
     transition: 0.5s ease;
     width: 80%;
-    height: 100vh;
-    margin-top: -75px;
+    height: 110vh;
   }
   .slider ul .menu{
     text-align: center;
@@ -823,6 +999,20 @@ body{
     .contactCont{
       display: block;
     }
+    .footerCont{
+      display: block;
+    }
+    .footerCenterSec, .footerleftSec, .footerRightSec{
+      margin-top: 40px;
+    }
+    .footerLogo{
+      display: flex;
+    }
+    .footerLogo h2{
+      /* border: 2px solid var(--MostUsedcolor); */
+      font-size: 25px;
+      padding-top: 10px;
+    }
  }
  @media screen and (max-width : 780px){
   .logo h2{
@@ -924,5 +1114,15 @@ body{
     font-size: 24px;
     line-height: 35px;
     text-align: center;
+  }
+  .testimonialslider p:nth-child(1){
+    padding-inline: 8px;
+    margin-bottom: -10px;
+  }
+  .slick-slide div{
+    margin-inline: 3px;
+  }
+  .testimonialslider div img{
+    margin-inline: 5px ;
   }
  }

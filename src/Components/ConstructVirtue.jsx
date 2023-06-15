@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import aboutImg from "../assets/Construct_Images/about-img.jpg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBuildingColumns, faPersonDigging, faPersonShelter, faShip, faTools, faTruckMonster } from '@fortawesome/free-solid-svg-icons'
 
 export const ConstructVirtue = () => {
@@ -15,7 +15,7 @@ export const ConstructVirtue = () => {
                    <div className="round"> <p><FontAwesomeIcon icon={faTruckMonster}/> </p> </div>
                    <h4>Smart Design Efficiency</h4>
                    <p>
-                   we understand the importance of architecture that aligns with the intended purpose of a building. Our team of architects meticulously analyzes the functional requirements, ensuring optimal space utilization, efficient workflow, and seamless accessibility. By prioritizing functionality, we design structures that truly serve their purpose.
+                   we understand the importance of architecture that aligns with the intended purpose of a building. Our team of architects meticulously analyzes the functional requirements, ensuring optimal space utilization.
                    </p>
                    {/* <h5>Read More</h5> */}
                 </div>
@@ -25,7 +25,7 @@ export const ConstructVirtue = () => {
                    <div className="round"> <p><FontAwesomeIcon icon={faTools}/> </p> </div>
                    <h4>Talent Management</h4>
                    <p>
-                   we understand the importance of acquiring the right talent for construction projects. Our recruitment strategies focus on identifying individuals with the necessary skill sets and qualifications. Through extensive industry networks and rigorous selection processes, we ensure that we attract experienced professionals and promising newcomers who can excel in their roles.
+                   we understand the importance of acquiring the right talent for construction projects. Our recruitment strategies focus on identifying individuals with the necessary skill sets and qualifications.
                    </p>
                    {/* <h5>Read More</h5> */}
             </div>
@@ -34,7 +34,7 @@ export const ConstructVirtue = () => {
                    <div className="round"> <p> <FontAwesomeIcon icon={faPersonDigging}/> </p> </div>
                    <h4>Top Service Quality</h4>
                    <p>
-                   client satisfaction is at the core of everything we do. We prioritize clear communication, active listening, and a deep understanding of our clients' needs. By maintaining open lines of communication throughout the project, we ensure that our services align with their expectations, resulting in successful outcomes.
+                   client satisfaction is at the core of everything we do. We prioritize clear communication, active listening, and a deep understanding of our clients' needs.
                    </p>
                    {/* <h5>Read More</h5> */}
             </div>

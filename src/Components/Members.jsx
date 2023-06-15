@@ -4,7 +4,7 @@ import teamImage1 from "../assets/Construct_Images/team-1.jpg"
 import teamImage2 from "../assets/Construct_Images/team-2.jpg"
 import teamImage3 from "../assets/Construct_Images/team-3.jpg"
 import { Container } from 'react-bootstrap'
-import { faFacebook, faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import {faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export const Members = () => {
   return (

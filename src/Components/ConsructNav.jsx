@@ -1,8 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import logo1 from '../assets/Construct_Images/croppedLogo.png';
-import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBarsStaggered, faClock, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { Container } from 'react-bootstrap';
+import { faFacebookF, faInstagram, faSquareGooglePlus, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 export const ConstructNav = () => {
   const [active, setActive] = useState(false);
@@ -33,6 +35,21 @@ export const ConstructNav = () => {
 
   return (
     <>
+      <Container fluid>
+        <div className='upperContactInfo'>
+            <div className="location">
+              <p><a> <FontAwesomeIcon icon={faLocationPin} /> </a> Plot 21 New Base Layout, Umuifi Amorji Nike Enugu, Enugu State.</p> <br />
+              <p><a> <FontAwesomeIcon icon={faWhatsapp} /></a>  +234-805-2426-301,  <a><FontAwesomeIcon icon={faPhone} /></a> <p>+234-803-5933-680,</p></p>
+              <p><a><FontAwesomeIcon icon={faClock} /></a> <b>Mon-Fri: 9am to 6pm</b> </p>
+            </div>
+            <div className="SocialMediaLinks">
+            <a href=""> <FontAwesomeIcon icon={faFacebookF}/></a>                         
+            <a href="">  <FontAwesomeIcon icon={faTwitter}/></a>
+            <a href="">  <FontAwesomeIcon icon={faInstagram}/></a>
+            <a href="mailto:obioraobiekwekanu@gmail.com">  <FontAwesomeIcon icon={faSquareGooglePlus}/></a>
+            </div>
+        </div>
+      </Container>
       <div className='header'>
         <div className='largeSc'>
           <div className='logo'>
