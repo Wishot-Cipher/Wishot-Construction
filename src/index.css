@@ -963,8 +963,8 @@ body{
     color: var(--white);
     display: flex;
   }
-  .logo h1{
-    padding-top: 25px;
+  .logo h2{
+    padding-top: 23px;
   }
   .logoLx{
     display: none;
@@ -1033,16 +1033,16 @@ body{
       padding-top: 10px;
     }
     .logo img{
-      margin-top: 6px;
+      margin-top: 2px;
       height: 60px;
     }
  }
  @media screen and (max-width : 780px){
   .logo h2{
-    padding-top: 27px;
+    padding-top: 20px;
   }
   .logo img{
-    margin-top: 6px;
+    margin-top: -3px;
     height: 60px;
   }
   .serviceText{
@@ -1117,7 +1117,7 @@ body{
     overflow: hidden;
   } */
   .logo h2{
-    padding-top: 30px;
+    padding-top: 20px;
   }
   .serviceText{
     bottom: -47%;
