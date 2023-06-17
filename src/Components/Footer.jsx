@@ -1,6 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons';
+import logo1 from '../assets/Construct_Images/mainLogo.jpg';
 import { Container } from 'react-bootstrap'
 import { faFacebookF, faInstagram, faSquareGooglePlus, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
@@ -12,6 +13,7 @@ export const Footer = () => {
             <div className="footerCont">
                 <div className="footerleftSec">
                     <div className='logoLx footerLogo'>
+                    {/* <img src={logo1} alt="logo" /> */}
                     <h2>KINGRITE</h2>
                     </div> 
                     <p>Experience the satisfaction of proficiently executed work for exceptional results on our Architecture Designs.</p>
