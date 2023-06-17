@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
-import logo1 from '../assets/Construct_Images/croppedLogo.png';
+import logo1 from '../assets/Construct_Images/kingriteLogo.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBarsStaggered, faClock, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { Container } from 'react-bootstrap';
@@ -53,7 +53,7 @@ export const ConstructNav = () => {
       <div className='header'>
         <div className='largeSc'>
           <div className='logo'>
-            <img src={logo1} height={40} alt='logo' /><h2>KINGRITE</h2>
+          <h2>KINGRITE</h2><img src={logo1} height={80} alt='logo' /> 
           </div>
           <div className='showmenu' onClick={showMenu}>
             <FontAwesomeIcon icon={faBarsStaggered} />
@@ -61,11 +61,10 @@ export const ConstructNav = () => {
         </div>
         <nav className={active ? 'slider active' : 'slider'} ref={ref}>
           <div className='logoLx'>
-            {' '}
-            <img src={logo1} height={40} alt='logo' /><h2>KINGRITE</h2>
+          <h2>KINGRITE</h2><img src={logo1} height={80} width={100} alt='logo' className='LogoImg' />
           </div>
           <ul>
-            <li className='menu'> <div className="logo"> <img src={logo1} height={40} alt="logo"/><h2>KINGRITE</h2></div> </li>
+            <li className='menu'> <div className="logo"> <h2>KINGRITE</h2><img src={logo1} height={40} alt="logo"/></div> </li>
               <ScrollLink
                 // activeClass='activate'
                 onSetActive={() => setActiveLiLink("home")}

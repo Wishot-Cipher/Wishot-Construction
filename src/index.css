@@ -13,11 +13,11 @@ body{
   /* font-family:  Roboto,  sans-serif; */
 }
 .header{
-  height: 70px;
+  height: 80px;
   overflow: hidden;
   position: sticky;
   width: 100%;
-  background-color: #F7F7F7;
+  background-color: #FDFDFD;
   top: 0px;
   z-index: 30;
  }
@@ -51,7 +51,7 @@ body{
    color: var(--white);
  }
  .logoLx{
-   padding-left: 20px;
+   padding-left: 27px;
    color: var(--white);
    display: flex;
  }
@@ -61,10 +61,17 @@ body{
  .logo{
    display: none;
  }
+ .logoLx img, .logo img{
+  /* height: 100%; */
+  width: 100%;
+  height: 70px;
+  margin-top: 4px;
+  object-fit: contain;
+ }
  .logo h2, .logoLx h2{
   text-align: center;
   display: inline;
-  padding-top: 5px;
+  padding-top: 30px;
   font-weight: 800;
   color: black;
  }
@@ -871,13 +878,13 @@ body{
  /* RESPONSIVENESSS */
  @media screen and (max-width : 1000px){
   .header{
-    height: 70px;
+    height: 80px;
     padding-inline: 10px;
     padding-top: 10px;
     overflow: hidden;
     position: sticky;
     width: 100%;
-    background-color: #F7F7F7;
+    background-color: #FDFDFD;
     z-index: 20;
   }
   .upperContactInfo{
@@ -903,7 +910,8 @@ body{
   }
   .slider ul .menu{
     text-align: center;
-    display: block;
+    display: flex;
+    justify-content: center;
     padding-block: 1rem;
     border-top: 0px;
     background-color: var(--white);
@@ -950,13 +958,13 @@ body{
   .slider ul .lastLink{
     border-bottom: 0px;
   }
-  .logo{
+  .logo{ 
     text-align: center;
     color: var(--white);
     display: flex;
   }
-  .logo h2{
-    padding-top: 7px;
+  .logo h1{
+    padding-top: 25px;
   }
   .logoLx{
     display: none;
@@ -1024,10 +1032,18 @@ body{
       font-size: 25px;
       padding-top: 10px;
     }
+    .logo img{
+      margin-top: 6px;
+      height: 60px;
+    }
  }
  @media screen and (max-width : 780px){
   .logo h2{
-    padding-top: 8px;
+    padding-top: 27px;
+  }
+  .logo img{
+    margin-top: 6px;
+    height: 60px;
   }
   .serviceText{
     bottom: -37%;
@@ -1101,7 +1117,7 @@ body{
     overflow: hidden;
   } */
   .logo h2{
-    padding-top: 11px;
+    padding-top: 30px;
   }
   .serviceText{
     bottom: -47%;
