@@ -1,5 +1,4 @@
 import React from 'react'
-import logo1 from '../assets/Construct_Images/kingriteLogo.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { Container } from 'react-bootstrap'
