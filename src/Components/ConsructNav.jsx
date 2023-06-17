@@ -38,9 +38,9 @@ export const ConstructNav = () => {
       <Container fluid>
         <div className='upperContactInfo'>
             <div className="location">
-              <p><a> <FontAwesomeIcon icon={faLocationPin} /> </a> Plot 21 New Base Layout, Umuifi Amorji Nike Enugu, Enugu State.</p> <br />
-              <p><a> <FontAwesomeIcon icon={faWhatsapp} /></a>  +234-805-2426-301,  <a><FontAwesomeIcon icon={faPhone} /></a> <p>+234-803-5933-680,</p></p>
-              <p><a><FontAwesomeIcon icon={faClock} /></a> <b>Mon-Fri: 9am to 6pm</b> </p>
+              <p><a> <FontAwesomeIcon icon={faLocationPin} /></a> Plot 21 New Base Layout, Umuifi Amorji Nike Enugu, Enugu State.</p> <br />
+              <p><a> <FontAwesomeIcon icon={faWhatsapp} /></a> +234-805-2426-301,  <a><FontAwesomeIcon icon={faPhone} /></a> <p>+234-803-5933-680,</p></p>
+              <p><a><FontAwesomeIcon icon={faClock} /></a><b>Mon-Fri: 9am to 6pm</b> </p>
             </div>
             <div className="SocialMediaLinks">
             <a href=""> <FontAwesomeIcon icon={faFacebookF}/></a>                         
@@ -53,7 +53,7 @@ export const ConstructNav = () => {
       <div className='header'>
         <div className='largeSc'>
           <div className='logo'>
-          <h2>KINGRITE</h2><img src={logo1} height={80} alt='logo' /> 
+           <h2>KINGRITE</h2><img src={logo1} height={80} alt='logo' /> 
           </div>
           <div className='showmenu' onClick={showMenu}>
             <FontAwesomeIcon icon={faBarsStaggered} />
@@ -61,7 +61,7 @@ export const ConstructNav = () => {
         </div>
         <nav className={active ? 'slider active' : 'slider'} ref={ref}>
           <div className='logoLx'>
-          <h2>KINGRITE</h2><img src={logo1} height={80} width={100} alt='logo' className='LogoImg' />
+           <h2>KINGRITE</h2><img src={logo1} height={80} width={100} alt='logo' className='LogoImg' />
           </div>
           <ul>
             <li className='menu'> <div className="logo"> <h2>KINGRITE</h2><img src={logo1} height={40} alt="logo"/></div> </li>
