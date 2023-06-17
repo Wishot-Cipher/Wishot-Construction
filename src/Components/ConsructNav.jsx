@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
-import logo1 from '../assets/Construct_Images/kingriteLogo.jpeg';
+import logo1 from '../assets/Construct_Images/KingriteLogo.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBarsStaggered, faClock, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { Container } from 'react-bootstrap';
