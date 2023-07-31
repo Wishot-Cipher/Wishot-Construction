@@ -52,7 +52,7 @@ body{
   .scrollLink{
    text-decoration: none;
    font-size: 17px;
-   color: var(--white);
+   color: var(--background2);
  }
  .link{
   text-decoration: none;
@@ -90,7 +90,7 @@ body{
   border-bottom: 4px solid var(--MostUsedcolor);
  }
  .scrollLink{
-  color: var(--white);
+  color: var(--background2);
  }
  .scrollLink:hover{
   cursor: pointer;
@@ -147,11 +147,11 @@ body{
 } 
 .hero2{
   background-image: url(../src//assets//Construct_Images/constImg04.jpg);
-  background-position: center right;
+  background-position: top left ;
 }
 .hero3{
   background-image: url(../src//assets//Construct_Images/constImg03.jpg);
-  background-position: center;
+  background-position: center left;
 }
  .heroText {
   color: var(--white);
@@ -1017,6 +1017,7 @@ a{
   }
   .slider ul li{
     margin-block: 0rem;
+    color: var(--background2);
     padding-block: 1.3rem;
     list-style: none;
     border: 1px solid rgb(224, 219, 219);
@@ -1063,7 +1064,7 @@ a{
     /* color: white; */
     text-decoration: none;
     font-size: 17px;
-    color: var(--white);
+    color: var(--background2);
   }
   .virtuesCont{
     display: block;
