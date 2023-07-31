@@ -5,7 +5,7 @@ import { ConstructVirtue } from '../Components/ConstructVirtue'
 import { Services } from '../Components/Services'
 import { Members } from '../Components/Members'
 import { WhyChooseUs } from '../Components/WhyChooseUs'
-import { Contact } from '../Components/Contact'
+import { FaqSection } from '../Components/FaqSection'
 import { Testimonies } from '../Components/Testimonies'
 import { Footer } from '../Components/Footer'
 
@@ -18,7 +18,7 @@ export const Construct = () => {
       <Services />
       <Members />
       <WhyChooseUs />
-      <Contact />
+      <FaqSection />
       <Testimonies />
       <Footer />
     </div>

@@ -15,7 +15,7 @@ export const ConstructVirtue = () => {
                    <div className="round"> <p><FontAwesomeIcon icon={faTruckMonster}/> </p> </div>
                    <h4>Smart Design Efficiency</h4>
                    <p>
-                   we understand the importance of architecture that aligns with the intended purpose of a building. Our team of architects meticulously analyzes the functional requirements, ensuring optimal space utilization.
+                   Unlock smart design potential with our innovative Smart Design Efficiency service. Optimizing designs for CNC manufacturing ensures superior results.
                    </p>
                    {/* <h5>Read More</h5> */}
                 </div>
@@ -25,7 +25,7 @@ export const ConstructVirtue = () => {
                    <div className="round"> <p><FontAwesomeIcon icon={faTools}/> </p> </div>
                    <h4>Talent Management</h4>
                    <p>
-                   we understand the importance of acquiring the right talent for construction projects. Our recruitment strategies focus on identifying individuals with the necessary skill sets and qualifications.
+                   Talented engineers and designers, our greatest asset. Talent Management nurtures their potential to deliver top-notch solutions consistently to valued clients..
                    </p>
                    {/* <h5>Read More</h5> */}
             </div>
@@ -34,7 +34,7 @@ export const ConstructVirtue = () => {
                    <div className="round"> <p> <FontAwesomeIcon icon={faPersonDigging}/> </p> </div>
                    <h4>Top Service Quality</h4>
                    <p>
-                   client satisfaction is at the core of everything we do. We prioritize clear communication, active listening, and a deep understanding of our clients' needs.
+                   Unbeatable service quality. Skilled engineers, cutting-edge technology. Exceeding expectations, every project, every time. Trust the best.
                    </p>
                    {/* <h5>Read More</h5> */}
             </div>
@@ -48,26 +48,31 @@ export const ConstructVirtue = () => {
                         <div className="aboutText">
                             <h6>OUR ABOUT US</h6>
                             <h2>We are working around Nigeria with many years of expert</h2>
-                            <p> <b>Kingrite </b> is a foremost infrastructure Construction Company in Nigeria & one of the largest and most professional in the sector.
+                            <p> <b> CNC PROTOTYPE MACHINE, INC </b> is a renowned international CNC Engineering Company excelling in infrastructure construction. As one of the largest and most professional entities in the industry, we take immense pride in continuously improving our know-how and leveraging our extensive experience to elevate the quality of life and drive progress.
 
-                            We are proud that we are succeeding in so many areas, utilising our continuously improving and expanding know-how, expertise, and experience to enhance life quality, helping usher in a new era of development.
+                            Our CNC services span multiple sectors, including Infrastructure, Water, Power & Community Innovation. With our innovative solutions, we contribute to improved infrastructure, ample water resources, sustainable living, and the promotion of clean energy on a global scale. <b> CNC PROTOTYPE MACHINE, INC </b> , we are committed to excellence and strive to make a significant impact in the field of international development.
 
-                            Our services that span through multiple sectors such as : Infrastructure, Water, Power & Community innovation that provide for improved infrastructure, plentiful water, sustainable living, and clean energy.</p>
+
+
+
+
+</p>
                             <div className="architecDesignCont">
                                 <div className="fontSide"> <p><FontAwesomeIcon icon={faBuildingColumns}/> </p></div>
                                 <div className="archiTextSide">
-                                    <h4>Architecture Design</h4>
-                                    <p>Discover the transformative power of visionary architecture design, where imagination meets functionality to create extraordinary spaces.</p>
+                                    <h4>Engineering Marvels</h4>
+                                    <p> 
+                                    your gateway to precision engineering and rapid innovation!, you can explore endless possibilities for design iterations, test functionalities, and refine your projects with ease. We cater to various industries, including aerospace, automotive, electronics, and more, ensuring that each component meets your exact specifications.</p>
                                 </div>
                             </div>
                             <div className="architecDesignCont">
                                 <div className="fontSide"> <p><FontAwesomeIcon icon={faShip}/> </p> </div>
                                 <div className="archiTextSide"> 
-                                    <h4>Design & Shipping</h4>
-                                    <p>Experience the seamless fusion of design and shipping expertise, ensuring your cargo arrives safely and stylishly.</p>
+                                    <h4>Elevate Your Vision</h4>
+                                    <p>Step into a world of endless possibilities! CNC Prototyping empowers your vision with advanced technology and skilled engineering. Witness your concepts come to life as our CNC machines sculpt intricate designs with unwavering precision.</p>
                                 </div>
                             </div>
-                            <button>Read More</button>
+                            {/* <button>Read More</button> */}
                         </div>
                     </div>
                 </Container>

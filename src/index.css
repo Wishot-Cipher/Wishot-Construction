@@ -1,15 +1,18 @@
 :root{
-  --MostUsedcolor: #2C4E58;
+  --MostUsedcolor: #EE8800;
   --white: #fff;
-  --black: #000
+  --black: #000;
+  --background2: #1A1919
 }
 *{
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  /* background-color: #000000; */
+  /* color: #fff; */
 }
 body{
-  background-color: #fbfafa;
+  background-color: var(--black);
   /* font-family:  Roboto,  sans-serif; */
 }
 .header{
@@ -17,7 +20,8 @@ body{
   overflow: hidden;
   position: sticky;
   width: 100%;
-  background-color: #FDFDFD;
+  background-color: var(--black);
+  color: var(--white);
   top: 0px;
   z-index: 30;
  }
@@ -39,7 +43,7 @@ body{
    font-weight: 700; 
    font-size: 16px;
    list-style: none;
-   color: rgb(37, 35, 35);
+   color: var(--white);
    text-decoration: dotted;
   }
   .slider ul li a:hover{
@@ -49,6 +53,9 @@ body{
    text-decoration: none;
    font-size: 17px;
    color: var(--white);
+ }
+ .link{
+  text-decoration: none;
  }
  .logoLx{
    padding-left: 27px;
@@ -77,6 +84,16 @@ body{
   font-weight: 800;
   color: #2D4D5A;
   /* left: 10px; */
+ }
+ .activate{
+  color: #F7F7F7;
+  border-bottom: 4px solid var(--MostUsedcolor);
+ }
+ .scrollLink{
+  color: var(--white);
+ }
+ .scrollLink:hover{
+  cursor: pointer;
  }
  .showmenu,  .personIcon{
    font-size: 20px;
@@ -117,16 +134,6 @@ body{
   font-size: 18px;
   padding: 10px;
  }
-.activate{
-  color: #F7F7F7;
-  border-bottom: 4px solid var(--MostUsedcolor);
- }
- .scrollLink{
-  color: var(--white);
- }
- .scrollLink:hover{
-  cursor: pointer;
- }
  #home{
   width: 100%;
   overflow: hidden;
@@ -144,7 +151,7 @@ body{
 }
 .hero3{
   background-image: url(../src//assets//Construct_Images/constImg03.jpg);
-  background-position: center left;
+  background-position: center;
 }
  .heroText {
   color: var(--white);
@@ -186,20 +193,22 @@ body{
   flex-basis: 34%;
   padding-left: 40px;
   padding-right: 20px;
-  padding-block: 18px;
-  border: none;
-  box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+  padding-block: 30px;
+  background-color: var(--background2);
+  color: var(--white);
+  border: 5px ridge #DDDDDD;
+  box-shadow: 0 5px 4px 0 rgba(255, 250, 250, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.15);
  }
  .card h1{
   text-align: right;
   height: 20px;
   font-size: 50px;
   font-weight: 700;
-  color: rgb(0, 0, 0,0.1);
+  color: rgba(255, 255, 255, 0.2);
   transition: all 0.5s ease-in-out;
  }
  .card:hover.card h1{
-  color: var(--black);
+  color: var(--white);
   font-size: 70px;
  }
  .round{
@@ -207,7 +216,7 @@ body{
    width: 85px;
    border-radius: 50%;
    background-color: var(--MostUsedcolor);
-   color: var(--white);
+   color: var(--black);
    transition: all 0.5s ease-in-out;
    justify-content: center;
    display: flex;
@@ -219,16 +228,19 @@ body{
     transition: all 0.5s ease-in-out;
   }
   .card:hover .round{
-   background-color: var(--black);
-   color: var(--white);
+   background-color: var(--white);
+   color: var(--black);
   }
   .card h4{
     font-weight: 700;
     padding-block: 10px;
   }
   #about{
-    background-color: var(--white);
-    padding-block: 10%;
+    background-color: var(--black);
+    color: var(--white);
+    padding-block: 5%;
+    border-top:5px solid #2D4D5A;
+
   }
   .aboutCont{
     display: flex;
@@ -260,6 +272,7 @@ body{
   }
   .architecDesignCont{
     display: flex;
+    border-top:5px solid #2D4D5A;
   }
   .fontSide{
     flex-basis: 8%;
@@ -274,7 +287,7 @@ body{
     border-left: 3px solid var(--MostUsedcolor);
     padding-left: 10px;
     margin-top: 20px;
-    flex-basis: 80%;
+    flex-basis: 100%;
   }
   .archiTextSide h4{
     font-weight: 700;
@@ -294,7 +307,10 @@ body{
     border-radius: 5px;
   }
   .servicesBackground{
-  background-color: #fbfafa;
+  background-color: var(--black);
+  border-top:5px solid #2D4D5A;color: var(--white);
+  padding-block: 20px;
+
   }
   .servicesHeaderCont{
     text-align: center;
@@ -336,12 +352,14 @@ body{
     bottom: -52%;
     left: 5%;
     margin-bottom: 40px;
-    background-color: var(--white);
-    padding-inline: 20px;
+    background-color: var(--background2);
+    color: var(--white);
+    padding-inline: 15px;
     transition: all 0.5s ease-in-out;
   }
   .serviceText:hover .serviceFont{
     background-color: var(--black);
+    color: var(--white);
   }
   .serviceFont p{
     font-size: 25px;
@@ -370,13 +388,17 @@ body{
   /* MEMBERS COMPONENTES STYLES  --STARTS*/
  .memberHeader{
   text-align: center;
+  color: var(--white);
+  /* border-top:5px solid #2D4D5A; */
+  margin-top: -50px;
+  /* padding-bottom: 20px; */
  }
  .memberHeader h6{
   color: var(--MostUsedcolor);
   font-weight: 700;
    border-bottom: 3px solid var(--MostUsedcolor);
    display: inline-block;
-   padding-bottom: 5px;
+   padding-block: 10px;
  }
  .memberHeader h1{
   font-weight: 700;
@@ -400,7 +422,7 @@ body{
  }
  .slideDown{
   margin-left: 75%;
-  background-color: var(--MostUsedcolor);
+  background-color: var(--background2);
   width: 60px;
   border-radius: 0px 0px 25px 25px;
   text-align: center;
@@ -427,7 +449,7 @@ body{
   width: 45px;
   border-radius: 50%;
   background-color: var(--white);
-  color: var(--MostUsedcolor);
+  color: var(--black);
   font-size: 30px;
   transition: all 0.7s ease-in-out;
  }
@@ -439,7 +461,7 @@ body{
   width: 45px;
   border-radius: 50%;
   background-color: var(--white);
-  color: var(--MostUsedcolor);
+  color: var(--black);
   transition: all 0.6s ease-in-out;
   font-size: 30px;
  }
@@ -450,7 +472,7 @@ body{
   height: 45px;
   width: 45px;
   border-radius: 50%;
-  color: var(--MostUsedcolor);
+  color: var(--black);
   background-color: var(--white);
    font-size: 30px;
   transition: all 0.5s ease-in-out;
@@ -475,7 +497,7 @@ body{
  }
  .memTectCont{
   position: absolute;
-  background-color: var(--MostUsedcolor);
+  background-color: var(--black);
   height: 100px;
   width: 2%;
   border-radius: 0px 10px 10px 0px;
@@ -501,6 +523,7 @@ body{
     display: flex;
     gap: 10px;
     margin-bottom: 80px;
+    color: var(--white);
   }
   .chooseUsReason{
     flex-basis: 45%;
@@ -590,6 +613,8 @@ body{
     display: flex;
     height: 48vh;
     gap: 1px;
+  }
+  .image2margin{
     margin-bottom: 80px;
   }
   .displayPhotos2 h4, .displayPhotos2 h6{
@@ -645,17 +670,18 @@ body{
 
     /* CONTACT FORM COMPONENTS STYLES --STARTS */
   .contactCont{
-    display: flex;
-    gap: 10px;
+  margin-bottom: 30px;
   }
   .ourFaq{
     flex-basis: 49%;
+    color: var(--white);
   }
   .contactForm{
-    flex-basis: 49%;
+    
   }
   .contactForm div:nth-child(1){
-    background-color: #F5F5F5;
+    background-color: var(--background2);
+    color: var(--white);
     padding-inline: 25px;
     padding-block: 30px;
     border-radius: 10px;
@@ -671,7 +697,7 @@ body{
    font-weight: 700;
   }
   .questionsCont h6{
-    color: #292020;
+    color: rgb(238, 238, 238);
     font-weight: 700;
     border-bottom:none;
     display:block;
@@ -682,7 +708,7 @@ body{
     /* height: 30%; */
     padding: 15px;
     margin-bottom: 10px;
-    background-color: #F3F3F3;
+    background-color: var(--background2);
     border-radius: 10px;
   }
   .questions{
@@ -695,7 +721,7 @@ body{
     display: none;
     transition: all 0.5s ease-in-out;
   }
-  .clikedAnswer{
+  .clickedAnswer{
     display: block;
   }
   .detailContactform  input, textarea{
@@ -727,7 +753,8 @@ body{
   
   /* TESTIMONIAL COMPONENTS SECTION */
   .testimonialContainer{
-  background-color: #F5F5F5;
+  background-color: var(--background2);
+  color: var(--white);
   margin-block: 30px;
   padding-block: 2px;
   padding-bottom: 80px;
@@ -755,7 +782,7 @@ body{
     height: 40vh;
     width: 100%;
     /* border-left: 10px solid #e0e0e0; */
-    background-color: var(--white);
+    background-color: var(--black);
   }
   .TestiSlider{
     overflow: hidden;
@@ -800,8 +827,9 @@ body{
   /* FOOTER COMPONENT */
 
  .footerBackgroung{
-  background-color: var(--black);
+  background-color: #161515;
   color: var(--white);
+  border-top: 3px solid #d6d6d6;
   padding-top: 40px;
  }
  .footerCont{
@@ -809,6 +837,8 @@ body{
   gap: 25px;
  }
  .footerleftSec h2{
+  /* border-bottom: 2px solid var(--MostUsedcolor); */
+  font-weight: 700;
   color: var(--white);
  }
  .footerleftSec p{
@@ -873,6 +903,60 @@ body{
   font-weight: 700;
  }
 
+
+ /* .contactNav{
+  color: var(--white);
+  height: 80px;
+  box-shadow: 2px 5px 4px 0px rgba(251, 248, 248, 0.2), 0 6px 20px 0 rgba(253, 248, 248, 0.15);
+
+ } */
+
+ /*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+
+.breadcrumbs {
+  padding: 15px 0;
+  background-color: var(--background2);
+  color: var(--white);
+  height: 80px;
+  box-shadow: 2px 5px 4px 0px rgba(251, 248, 248, 0.2), 0 6px 20px 0 rgba(253, 248, 248, 0.15);
+  min-height: 40px;
+  padding-inline: 30px;
+}
+
+
+.breadcrumbs h2 {
+  font-size: 25px;
+  font-weight: 300;
+  font-weight: 700;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #6c757d;
+  content: "/";
+}
+
+a{
+  color: var(--MostUsedcolor);
+  text-decoration: none;
+}
 
 
 
@@ -1031,7 +1115,6 @@ body{
       display: flex;
     }
     .footerLogo h2{
-      /* border: 2px solid var(--MostUsedcolor); */
       font-size: 25px;
       padding-top: 10px;
     }
@@ -1115,9 +1198,9 @@ body{
   }
  }
  @media screen and (max-width : 500px){
-  /* .header{
-    overflow: hidden;
-  } */
+ .breadcrumbs{
+  padding-inline: 10px;
+ }
   .logo img{
     margin-top: -10px;
     height: 70px;

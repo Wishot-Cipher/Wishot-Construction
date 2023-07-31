@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBarsStaggered, faClock, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { Container } from 'react-bootstrap';
 import { faFacebookF, faInstagram, faSquareGooglePlus, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 export const ConstructNav = () => {
   const [active, setActive] = useState(false);
@@ -107,20 +108,16 @@ export const ConstructNav = () => {
                     Services
                  </li>
               </ScrollLink>
-              <ScrollLink
-                onSetActive={() => setActiveLiLink("contact")}
-                to='contact'
-                spy={true}
-                smooth={true}
-                offset={-20}
-                duration={70}
-                onClick={showMenu}
-                className='scrollLink'
-                >
-                <li  className={activeLiLink === "contact" ? "activate" : ""}>
-                   Contact
-                 </li>
-              </ScrollLink>
+              <Link to='/gallery' className='link'>
+                <li>
+                    Gallery
+                </li>
+              </Link>
+              <Link to='/contact' className='link'>
+                <li>
+                    Contact
+                </li>
+              </Link>
           </ul>
         </nav>
       </div>

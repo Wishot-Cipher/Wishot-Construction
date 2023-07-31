@@ -12,15 +12,15 @@ export const Footer = () => {
         <Container>
             <div className="footerCont">
                 <div className="footerleftSec">
-                    <div className='logoLx footerLogo'>
+                    <div className='footerLogo'>
                     {/* <img src={logo1} alt="logo" /> */}
-                    <h2>KINGRITE</h2>
+                    <h2>CNC PROTOTYPE MACHINE, INC.</h2>
                     </div> 
                     <p>Experience the satisfaction of proficiently executed work for exceptional results on our Architecture Designs.</p>
                 </div>
                 <div className="footerCenterSec">
                     <h3> LOCATION </h3> <br /> <br />
-                    <p><a> <FontAwesomeIcon icon={faLocationPin} /> </a> Plot 21 New Base Layout, Umuifi Amorji Nike Enugu, Enugu State.</p>
+                    <p><a> <FontAwesomeIcon icon={faLocationPin} /> </a> 5441 Western Ave Ste C, Boulder, CO 80301,EIN-SOLE PROPRIETOR</p>
                     <p><a> <FontAwesomeIcon icon={faWhatsapp} /></a>   +234-805-2426-301, </p> <p><a><FontAwesomeIcon icon={faPhone} /> +234-803-5933-680 </a></p>
                     <p><a><FontAwesomeIcon icon={faClock} /></a> <b>Mon-Fri: 9am to 6pm</b> </p>
                 </div>
