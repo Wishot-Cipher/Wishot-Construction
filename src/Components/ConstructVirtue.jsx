@@ -47,7 +47,7 @@ export const ConstructVirtue = () => {
                         <div className="aboutImg"> <img src={aboutImg} alt="About Imgae" /></div>
                         <div className="aboutText">
                             <h6>OUR ABOUT US</h6>
-                            <h2>We are working around Nigeria with many years of expert</h2>
+                            <h2>We have been working around the world with many years of expertise.</h2>
                             <p> <b> CNC PROTOTYPE MACHINE, INC </b> is a renowned international CNC Engineering Company excelling in infrastructure construction. As one of the largest and most professional entities in the industry, we take immense pride in continuously improving our know-how and leveraging our extensive experience to elevate the quality of life and drive progress.
 
                             Our CNC services span multiple sectors, including Infrastructure, Water, Power & Community Innovation. With our innovative solutions, we contribute to improved infrastructure, ample water resources, sustainable living, and the promotion of clean energy on a global scale. <b> CNC PROTOTYPE MACHINE, INC </b> , we are committed to excellence and strive to make a significant impact in the field of international development.

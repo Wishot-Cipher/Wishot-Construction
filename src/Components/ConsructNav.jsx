@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link as ScrollLink } from 'react-scroll';
-import logo1 from '../assets/Construct_Images/mainLogo.jpg';
+import logo1 from '../assets/Construct_Images/mainLogo2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBarsStaggered, faClock, faLocationPin, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { Container } from 'react-bootstrap';
@@ -35,7 +35,7 @@ export const ConstructNav = () => {
       <Container fluid>
         <div className='upperContactInfo'>
             <div className="location">
-              <p><a> <FontAwesomeIcon icon={faLocationPin} /></a> Plot 21 New Base Layout, Umuifi Amorji Nike Enugu, Enugu State.</p> <br />
+              <p><a> <FontAwesomeIcon icon={faLocationPin} /></a>Locations: 5441 Western Ave Ste C, Boulder, CO 80301,EIN-SOLE PROPRIETOR</p> <br />
               <p><a> <FontAwesomeIcon icon={faWhatsapp} /></a> +234-805-2426-301,  <a><FontAwesomeIcon icon={faPhone} /></a> <p>+234-803-5933-680,</p></p>
               <p><a><FontAwesomeIcon icon={faClock} /></a><b>Mon-Fri: 9am to 6pm</b> </p>
             </div>

@@ -16,7 +16,7 @@ export const Footer = () => {
                     {/* <img src={logo1} alt="logo" /> */}
                     <h2>CNC PROTOTYPE MACHINE, INC.</h2>
                     </div> 
-                    <p>Experience the satisfaction of proficiently executed work for exceptional results on our Architecture Designs.</p>
+                    <p>Experience the satisfaction of proficiently executed work for exceptional results on our CNC Machining Projects..</p>
                 </div>
                 <div className="footerCenterSec">
                     <h3> LOCATION </h3> <br /> <br />
@@ -33,7 +33,7 @@ export const Footer = () => {
                 </div>
             </div> <hr />
             <div className="copyrite">
-                <h6>Copyrite @Kingrite all rights reserved </h6>
+                <h6> ©2023 Copyright CNC_Prototype_Machine,_Inc. All Right Reserved </h6>
             </div>
         </Container>
     </div>
